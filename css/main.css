@@ -1,91 +1,109 @@
-
 html {
-    font-size: 16px;
-    scroll-behavior: smooth;
+  font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-size: 1.5rem;
-    font-family: 'Poppins', sans-serif;
-    line-height: 1.5;
-    text-align: center;
-    color: #282423;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  text-align: center;
+  color: #282423;
 }
 
 #main {
-    background: #9E908E;
-    margin: 35px 10px;
-    padding: 15px;
-    border-radius: 7px;
+  background: #9e908e;
+  margin: 35px 10px;
+  padding: 15px;
+  border-radius: 7px;
 }
 
 #tittle {
-    font-size: 2.5rem;
-    margin-bottom: 0;
+  font-size: 2.5rem;
+  margin-bottom: 0;
 }
 
 p {
-    font-size: 1rem;
-    line-height: 1.285; 
+  font-size: 1rem;
+  line-height: 1.285;
 }
 
 #img-div {
-    background: #fcfcfc;
-    padding: 10px;
-    margin: 0;
+  background: #fcfcfc;
+  padding: 10px;
+  margin: 0;
 }
 
 #image {
-    height: auto;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+  height: auto;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 #img-caption {
-    margin: 15px 0 5px 0;
+  margin: 15px 0 5px 0;
 }
 
 footer {
-    width: 100%;
+  width: 100%;
 }
 
 /* tribute-info section */
 h3 {
-    font-size: 1.75rem;
-    margin: 45px 0;
-    text-align: center;
+  font-size: 1.75rem;
+  margin: 45px 0;
+  text-align: center;
 }
 
 ul {
-    max-width: 550px;
-    margin: 0 auto 45px auto;
-    text-align: left;
-    line-height: 1.5;
+  max-width: 550px;
+  margin: 0 auto 45px auto;
+  text-align: left;
+  line-height: 1.5;
 }
 
 li {
-    font-size: 1rem;
-    margin: 15px 0;
+  font-size: 1rem;
+  margin: 15px 0;
 }
 
 .quote {
-    font-style: italic;
-    max-width: 550px;
-    margin: 0 auto 45px auto;
-    text-align: left;
+  font-style: italic;
+  max-width: 550px;
+  margin: 0 auto 45px auto;
+  text-align: left;
 }
 
 h4 {
-    font-size: 1.25rem;
+  font-size: 1.25rem;
+}
+
+#tribute-link {
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+#tribute-link:hover {
+    color:#565ec3;
 }
 
 /* footer */
 footer {
-    padding: 10px 0 20px 0;
+  padding: 10px 0 20px 0;
 }
 
-footer p {
-    font-weight: bold;
-  }
+footer .attribution {
+  font-weight: bold;
+  color: #9e908e;
+}
+
+footer a {
+    text-decoration: none;
+    color:#282423;
+}
+
+footer a:hover {
+    opacity: 0.8;
+}
